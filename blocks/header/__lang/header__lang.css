@@ -1,0 +1,11 @@
+@import url(../header/__lang/_item/header_lang_item.css);
+@import url(../header/__lang/_active/header_lang_active.css);
+
+.header__lang {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+  line-height: 17px;
+  padding: 0;
+}
