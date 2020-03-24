@@ -1,6 +1,7 @@
 @import url(../../vendor/normalize.css);
 
 .page {
-  background: #2A2C2F;
+  background: #2a2c2f;
+  color: #ffffff;
   font-family: "Inter", sans-serif;
 }
