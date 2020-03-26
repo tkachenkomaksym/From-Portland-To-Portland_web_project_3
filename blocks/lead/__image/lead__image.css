@@ -10,8 +10,8 @@
 
 @media screen and (min-width: 1024px) {
   .lead__image {
-    max-width: 964px;
     display: block;
+    max-width: 964px;
     margin-right: auto;
     margin-left: auto;
   }
