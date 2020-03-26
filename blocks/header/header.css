@@ -5,4 +5,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 16px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .header {
+    margin: 0 24px;
+  }
 }
