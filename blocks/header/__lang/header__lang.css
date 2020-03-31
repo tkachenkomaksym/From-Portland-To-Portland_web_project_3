@@ -1,4 +1,4 @@
-@import url(../__lang/_active/header_lang_active.css);
+@import url(../header/__lang/_active/header__lang_active.css);
 
 .header__lang {
   display: flex;
