@@ -1,0 +1,13 @@
+.place__text-column {
+  flex: 1 1 50%;
+}
+
+.place__text-column:nth-child(1) {
+  color:red;
+}
+
+@media screen and (max-width: 768px){
+  .place__text-column {
+    flex-basis: 100%;
+  }
+}

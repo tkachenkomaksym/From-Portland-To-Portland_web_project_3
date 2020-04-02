@@ -5,21 +5,16 @@
 
 
 .intro {
-  max-width: 984px;
-  margin-left: 16px;
-  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  max-width: 684px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro{
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 
-/*@media  screen and (min-width: 1240px) {*/
-/*  .intro {*/
-/*    margin-left: 100px;*/
-/*    margin-right: 100px;*/
-/*  }*/
-/*}*/

@@ -1,0 +1,14 @@
+.place__title {
+  flex: 1 1 50%;
+  font-size: 72px;
+  line-height: 65px;
+}
+
+@media screen and (max-width: 768px){
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    flex-basis: 100%;
+  }
+}
+

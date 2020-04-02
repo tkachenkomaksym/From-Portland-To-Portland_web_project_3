@@ -2,13 +2,13 @@
 
 .intro__text {
   margin: 0;
-  line-height: 19px;
-  font-size: 12px;
+  font-size: 13px;
+  line-height: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro__text {
-    font-size: 13px;
-    line-height: 20px;
+    line-height: 19px;
+    font-size: 12px;
   }
 }

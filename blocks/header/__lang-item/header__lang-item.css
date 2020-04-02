@@ -2,13 +2,14 @@
   margin-left: 16px;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 17px;
+  font-size: 24px;
+  line-height: 23px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .header__lang-item  {
-    font-size: 24px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 17px;
+
   }
 }
