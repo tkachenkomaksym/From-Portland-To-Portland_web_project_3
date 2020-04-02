@@ -9,6 +9,7 @@
   flex-direction: column;
   align-self: start;
   max-width: 684px;
+  margin-left: 100px;
 }
 
 @media screen and (max-width: 768px) {

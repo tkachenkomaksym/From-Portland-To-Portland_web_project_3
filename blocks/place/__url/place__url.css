@@ -1,3 +1,6 @@
 .place__url {
   margin-left: 40px;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration-line: underline;
 }

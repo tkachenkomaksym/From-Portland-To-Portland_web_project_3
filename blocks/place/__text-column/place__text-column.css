@@ -2,8 +2,8 @@
   flex: 1 1 50%;
 }
 
-.place__text-column:nth-child(1) {
-  color:red;
+.place__text-column:last-child {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px){
