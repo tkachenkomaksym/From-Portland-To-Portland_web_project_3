@@ -1,13 +1,13 @@
 .intro__subtitle {
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 14px;
+  line-height: 24px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro__subtitle {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 40px;
   }
 }
