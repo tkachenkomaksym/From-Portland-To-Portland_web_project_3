@@ -1,0 +1,22 @@
+.section-title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px){
+  .section-title {
+    font-size: 42px;
+    line-height: 107.64%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .section-title {
+    margin-top: 10%;
+  }
+}
