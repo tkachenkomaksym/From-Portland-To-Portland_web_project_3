@@ -1,0 +1,33 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+.cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/route-66.jpg") no-repeat center;
+  background-size: cover;
+  width: 1184px;
+  height: 594px;
+  margin: 100px auto 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .cover {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    width: 100%;
+    height: 272px;
+    margin: 50px auto 64px;
+  }
+}

@@ -6,13 +6,21 @@
   color: #FFFFFF;
   max-width: 640px;
   min-width: 288px;
-  margin: 37px auto 0;
+  margin: 37px auto 70px;
 }
 
 @media screen and (max-width: 1024px){
   .section-subtitle {
     font-size: 16px;
     line-height: 23px;
+    margin-top: 54px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__container {
+    flex-direction: column;
+    margin-top: 25px;
   }
 }
 
@@ -27,3 +35,4 @@
     max-width: 288px;
   }
 }
+

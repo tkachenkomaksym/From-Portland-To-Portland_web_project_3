@@ -1,19 +1,11 @@
 .video__container {
   display: flex;
   list-style: none;
-  margin-top: 72px;
   padding: 0;
-}
-
-@media screen and (max-width: 1020px) {
-  .video__container {
-    margin-top: 54px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .video__container {
     flex-direction: column;
-    margin-top: 25px;
   }
 }

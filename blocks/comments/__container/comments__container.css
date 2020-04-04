@@ -1,0 +1,12 @@
+.comments__container {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .comments__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

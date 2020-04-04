@@ -1,0 +1,42 @@
+@import url(./__image/comment__image.css);
+@import url(./__author/comment__author.css);
+@import url(./__quote/comment__quote.css);
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin-right: 19px;
+  width: 382px;
+}
+
+.comment:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .comment {
+    width: 296px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .comment {
+    width: 382px;
+    margin-bottom: 45px;
+    margin-right: 0;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comment {
+    width: 343px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .comment {
+    width: 288px;
+  }
+}
+
