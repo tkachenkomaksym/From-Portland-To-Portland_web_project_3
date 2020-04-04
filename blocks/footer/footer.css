@@ -4,5 +4,14 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  margin: 0 auto 48px;
+}
 
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
 }
