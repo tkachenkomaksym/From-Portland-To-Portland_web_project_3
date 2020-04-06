@@ -9,4 +9,17 @@
   align-items: center;
   max-width: 1184px;
   margin: auto;
+  padding-top: 33px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 24px 35px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 21px 16px 0;
+  }
 }

@@ -7,3 +7,9 @@
   margin-right: auto;
 }
 
+@media (max-width: 1280px) {
+  .content {
+    margin: 0;
+  }
+}
+
