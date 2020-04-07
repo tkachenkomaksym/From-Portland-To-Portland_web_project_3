@@ -1,0 +1,7 @@
+@import url(__text/digits__text.css);
+
+.digits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

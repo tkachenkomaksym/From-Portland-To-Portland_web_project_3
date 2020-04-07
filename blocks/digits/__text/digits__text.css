@@ -1,13 +1,13 @@
-@import url(../__text/_bold/intro__text_bold.css);
+@import url(_bold/digits__text_bold.css);
 
-.intro__text {
+.digits__text {
   margin: 0;
   font-size: 13px;
   line-height: 20px;
 }
 
 @media screen and (max-width: 768px) {
-  .intro__text {
+  .digits__text {
     line-height: 19px;
     font-size: 12px;
   }

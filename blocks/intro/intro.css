@@ -1,25 +1,28 @@
 @import url(../intro/__content/intro__content.css);
 @import url(../intro/__title/intro__title.css);
 @import url(../intro/__subtitle/intro__subtitle.css);
-@import url(../intro/__text/intro__text.css);
-
+@import url(../digits/__text/digits__text.css);
 
 .intro {
   display: flex;
   flex-direction: column;
   align-self: start;
-  max-width: 684px;
-  margin-left: 100px;
+  width: 964px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 @media screen and (max-width: 1020px) {
-  .intro{
-    margin-left: 0;
+  .intro {
+    width: 720px;
+    margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .intro{
+  .intro {
+  width: fit-content;
     margin-left: 16px;
     margin-right: 16px;
   }

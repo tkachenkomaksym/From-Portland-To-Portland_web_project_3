@@ -1,4 +1,4 @@
 .video__item_cycling {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../images/cycling.png"), no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../../../../images/cycling.png"), no-repeat;
   background-size: cover;
 }

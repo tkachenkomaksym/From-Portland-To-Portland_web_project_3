@@ -10,4 +10,11 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 72px;
+  max-width: 986px;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    display: block;
+  }
 }

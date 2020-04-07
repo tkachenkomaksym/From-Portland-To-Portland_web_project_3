@@ -6,26 +6,23 @@
   color: #FFFFFF;
   max-width: 640px;
   min-width: 288px;
-  margin: 37px auto 70px;
+  margin: 37px auto 0;
 }
 
 @media screen and (max-width: 1024px){
   .section-subtitle {
-    font-size: 16px;
-    line-height: 23px;
+    width: 640px;
+    font-size: 24px;
+    line-height: 35px;
     margin-top: 54px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .video__container {
-    flex-direction: column;
-    margin-top: 25px;
-  }
-}
-
-@media screen and (max-width: 425px){
   .section-subtitle {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 23px;
     max-width: 343px;
   }
 }
@@ -33,6 +30,7 @@
 @media screen and (max-width: 375px){
   .section-subtitle {
     max-width: 288px;
+    margin-bottom: 25px;
   }
 }
 

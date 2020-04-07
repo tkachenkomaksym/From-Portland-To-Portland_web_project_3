@@ -1,11 +1,26 @@
 .intro__content {
   font-size: 14px;
   line-height: 24px;
+  max-width: 684px;
+  margin: 33px 0 25px;
+}
+
+
+@media screen and (max-width: 1020px) {
+  .intro__content {
+    max-width: 720px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .intro__content {
     font-size: 16px;
     line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .intro__content {
+    margin-bottom: 48px;
   }
 }

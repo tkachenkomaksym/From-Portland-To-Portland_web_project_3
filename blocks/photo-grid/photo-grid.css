@@ -1,9 +1,10 @@
 @import url(./__item/photo-grid__item.css);
+@import url(./__image/photo-grid__image.css);
 
 .photo-grid {
-  margin-top: 85px;
-  width: 100%;
-  max-width: 1184px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 @media screen and (max-width: 768px) {

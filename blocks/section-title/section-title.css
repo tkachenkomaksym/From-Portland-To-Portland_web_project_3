@@ -4,19 +4,29 @@
   line-height: 78px;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 100px;
-  margin-bottom: 0;
+  margin: 100px auto 0;
+  width: 800px;
+
 }
 
 @media screen and (max-width: 1024px){
   .section-title {
+    width: 660px;
     font-size: 42px;
-    line-height: 107.64%;
+    line-height: 46px;
   }
 }
 
 @media screen and (max-width: 768px){
   .section-title {
+    width: 343px;
     margin-top: 10%;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 375px){
+  .section-title {
+    width: 288px;
   }
 }

@@ -2,12 +2,10 @@
   font-size: 18px;
   line-height: 30px;
   margin: 0 0 25px 40px;
-  width: 484px;
 }
 
 @media (max-width: 1280px) {
   .place__paragraph {
-    width: 456px;
     margin-left: 32px;
   }
 }
@@ -15,9 +13,9 @@
 @media screen and (max-width: 1024px) {
   .place__paragraph {
     margin-left: 28px;
-    width: 352px;
     font-size: 18px;
     line-height: 30px;
+    margin-right: 24px;
   }
 }
 
@@ -25,14 +23,13 @@
   .place__paragraph {
     font-size: 16px;
     line-height: 27px;
-    width: 343px;
     margin-top: 22px;
     margin-left: 16px;
+    max-width: 343px;
   }
 }
 
 @media (max-width: 375px) {
   .place__paragraph {
-    width: 288px;
   }
 }
