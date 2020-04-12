@@ -13,14 +13,9 @@
   max-width: 986px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place {
-    max-width: 345px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .place {
-    display: block;
+    flex-direction: column;
+    align-items: center;
   }
 }

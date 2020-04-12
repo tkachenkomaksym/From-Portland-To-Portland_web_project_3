@@ -22,18 +22,18 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    flex-basis: 100%;
+    margin-left: 16px;
     margin-bottom: 32px;
+    align-self: baseline;
   }
 }
 
 @media (max-width: 375px) {
   .place__title {
-    margin-left: 16px;
     max-width: 288px;
   }
 }
