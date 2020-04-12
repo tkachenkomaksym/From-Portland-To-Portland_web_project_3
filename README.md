@@ -18,6 +18,9 @@ This is a project about traveling across the US. All the elements are displayed 
 **Figma**
 
 * [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
+
+**Deployment**
+
 * [Link to the project on GitHub Pages](https://tkachenkomaksym.github.io/web_project_3/)
 
 **Images**
