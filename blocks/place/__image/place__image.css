@@ -20,10 +20,8 @@
 
 @media (max-width: 768px) {
   .place__image {
-    width: 375px;
-    height: 375px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin-left: 0;
   }
 }
 

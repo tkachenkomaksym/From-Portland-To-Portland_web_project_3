@@ -15,6 +15,12 @@
 
 @media screen and (max-width: 768px) {
   .place {
+    max-width: 345px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .place {
     display: block;
   }
 }

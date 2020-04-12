@@ -11,6 +11,10 @@
   flex-direction: column;
 }
 
+.cover:hover {
+  opacity: .8;
+}
+
 @media screen and (max-width: 1280px) {
   .cover {
     width: 100%;

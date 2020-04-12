@@ -1,7 +1,7 @@
 @import url(../intro/__content/intro__content.css);
 @import url(../intro/__title/intro__title.css);
 @import url(../intro/__subtitle/intro__subtitle.css);
-@import url(../digits/__text/digits__text.css);
+@import url(../digits/__row/digits__row.css);
 
 .intro {
   display: flex;

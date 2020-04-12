@@ -4,7 +4,6 @@
   margin-bottom: 60px;
 }
 
-
 @media (max-width: 1280px) {
   .place__website {
     width: 456px;
@@ -14,14 +13,19 @@
 
 @media screen and (max-width: 1024px) {
   .place__website {
+    max-width: 352px;
     margin-left: 28px;
   }
 }
 
-
 @media screen and (max-width: 768px){
   .place__website {
     display: none;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .place__website {
     flex-basis: 100%;
   }
 }
